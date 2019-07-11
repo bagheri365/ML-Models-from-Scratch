@@ -17,6 +17,6 @@ In this repository, I share my Python implementations of a simple linear regress
     <img src="https://github.com/alireza365/ML_Models_from_Scratch/blob/master/Regression/Simple%20Linear%20Model/Images/SLR_vs_iterations.png" width="640">
 </p>
 <p align="center">
-    Figure: Simple linear regression.
+    Figure: Simple linear regression: (Left panel) Cost function versus training iterations, (Right panel) Scatter plot of data along with the regression line
 </p>
 
