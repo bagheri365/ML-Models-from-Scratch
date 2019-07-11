@@ -1,4 +1,4 @@
-# Simple Linear Model from Scratch
+# Simple Linear Regression (SLR) Model from Scratch
 
 In this repository, I share my Python implementations of a simple linear regression model from scratch. Here are the table of contents:
 
