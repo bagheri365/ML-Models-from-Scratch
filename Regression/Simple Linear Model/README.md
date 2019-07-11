@@ -12,3 +12,11 @@ In this repository, I share my Python implementations of a simple linear regress
 ## Demos
 
 
+
+<p align="center">
+    <img src="/Images/SLR_vs_iterations.png" width="640">
+</p>
+<p align="center">
+    Figure: Simple linear regression.
+</p>
+
