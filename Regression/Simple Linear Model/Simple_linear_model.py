@@ -2,13 +2,14 @@
 # Simple Linear Regression (SLR) Model from Scratch
 # Author: Alireza Bagheri
 # GitHub: https://github.com/alireza365
+# License: MIT
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 import numpy as np; np.random.seed(123)
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-def Data_example():
-	# Data Example
+def Data_example():	
+    # Data Example
     n = 100              # Number of data samples
     x = np.random.uniform(-5.0, 5.0, n)
     
@@ -130,7 +131,6 @@ def SLR_with_Gradient_Descent(x, y):
     plt.xticks(range(0,n_itr+1,2))
     plt.grid()
     
-    
     y_pred = obj.a* x + obj.b
     #y_pred = obj.predict(x, True)
     
@@ -154,7 +154,7 @@ def SLR_with_Scikit_Learn(x, y):
     reg = reg.fit(x, y)
     
     # Y Prediction
-    #Y_pred = reg.predict(x)
+    # Y_pred = reg.predict(x)
     print('-'*50)
     print('SLR with scikit-learn')
     print('Coefficient:', reg.coef_, ', Intercept:', reg.intercept_)
@@ -166,7 +166,7 @@ def main():
     x, y = Data_example()
     # -------------------------------------------------------------------------
     # SLR with Analytical Solution
-    
+
     SLR_with_Analytical_Solution(x, y)
     # -------------------------------------------------------------------------
     # SLR with Gradient Descent 
