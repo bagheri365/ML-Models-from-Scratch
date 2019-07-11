@@ -2,13 +2,14 @@
 # Multiple Linear Regression (MLR) Model from Scratch
 # Author: Alireza Bagheri
 # GitHub: https://github.com/alireza365
+# License: MIT
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 import numpy as np; np.random.seed(123)
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 def Data_example():
-	# ---------------------------------------------------------
+    # ---------------------------------------------------------
     # Data Example
     n_samples = 1000           # Number of data samples
     n_features = 2             # Number of features
