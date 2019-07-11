@@ -14,7 +14,7 @@ In this repository, I share my Python implementations of a simple linear regress
 
 
 <p align="center">
-    <img src="/Images/SLR_vs_iterations.png" width="640">
+    <img src="https://github.com/alireza365/ML_Models_from_Scratch/blob/master/Regression/Simple%20Linear%20Model/Images/SLR_vs_iterations.png" width="640">
 </p>
 <p align="center">
     Figure: Simple linear regression.
