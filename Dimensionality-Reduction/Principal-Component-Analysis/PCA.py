@@ -44,17 +44,19 @@ class MyPCA:
         signs = np.sign(eig_vecs[max_abs_idx, range(eig_vecs.shape[0])])
         eig_vecs = eig_vecs*signs[np.newaxis,:]
         eig_vecs = eig_vecs.T
-           
+        
+        # Rearrange the eigenvectors and eigenvalues   
         eig_pairs = [(np.abs(eig_vals[i]), eig_vecs[i,:]) for i in range(len(eig_vals))]
         eig_pairs.sort(key=lambda x: x[0], reverse=True)
         eig_vals_sorted = np.array([x[0] for x in eig_pairs])
         eig_vecs_sorted = np.array([x[1] for x in eig_pairs])
-            
+        
+        # Choose principal components    
         self.components = eig_vecs_sorted[:self.n_components,:]
             
         # Explained variance ratio
         self.explained_variance_ratio = [i/np.sum(eig_vals) for i in eig_vals_sorted[:self.n_components]]
-            
+        # Cumulative explained variance    
         self.cum_explained_variance = np.cumsum(self.explained_variance_ratio)
     
         return self
@@ -73,7 +75,7 @@ def main():
     # -------------------------------------------------------------------------
     # PCA from Scratch
     
-    n_components = 2
+    n_components = 2 # Number of components
     my_pca = MyPCA(n_components).fit(X)
     X_proj = my_pca.transform(X) # Apply dimensionality reduction to X
     
