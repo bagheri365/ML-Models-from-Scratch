@@ -14,7 +14,7 @@
 
 # Problem setup  <a name="Problem_setup"></a>
 
-Multiple Linear Regression (MLR), also known as multivariable linear regression, is an extension of Simple Linear Regression (SLR). It is used when we want to predict the value of a dependent variable \$y$\ based on the value of $k \ge 2$ independent variables $x_1,...,x_k$. Suppose we have $n$ observations on the variables,
+Multiple Linear Regression (MLR), also known as multivariable linear regression, is an extension of Simple Linear Regression (SLR). It is used when we want to predict the value of a dependent variable $y$ based on the value of $k \ge 2$ independent variables $x_1,...,x_k$. Suppose we have $n$ observations on the variables,
 
 \begin{equation*}
 {y_i} = {\beta _0} + {\beta _1}{x_{i,1}} + ... + {\beta _k}{x_{i,k}} + {e_i},
