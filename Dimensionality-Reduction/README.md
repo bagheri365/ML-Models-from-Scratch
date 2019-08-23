@@ -25,3 +25,8 @@ This is on a separate line
 a^2+b^2=c^2
 ```
 
+$$ \begin{align}
+
+D_{KL}[Q(z \vert X) \Vert P(z \vert X)] &= \sum_z Q(z \vert X) , \log \frac{Q(z \vert X)}{P(z \vert X)} \[10pt] &= E \left[ \log \frac{Q(z \vert X)}{P(z \vert X)} \right] \[10pt] &= E[\log Q(z \vert X) - \log P(z \vert X)]
+
+\end{align} $$
