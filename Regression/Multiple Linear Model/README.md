@@ -1,7 +1,7 @@
 
 <h1 align="center"> Multiple Linear Regression (MLR) from Scratch</h1>
 
-<h1 align="center"> <a href="https://github.com/alireza365/" target="_blank" rel="noopener noreferrer">Alireza Bagheri</a></h1>
+<h1 align="center"> <a href="https://github.com/bagheri365/" target="_blank" rel="noopener noreferrer">Alireza Bagheri</a></h1>
 
 <h1>Table of contents</h1>
 <ul>
