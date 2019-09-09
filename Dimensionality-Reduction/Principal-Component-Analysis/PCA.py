@@ -1,7 +1,7 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Principal Component Analysis (PCA) from Scratch
 # Author: Alireza Bagheri
-# GitHub: https://github.com/alireza365
+# GitHub: https://github.com/bagheri365
 # License: MIT
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 import numpy as np
