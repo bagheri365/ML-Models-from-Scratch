@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-    <img src= "https://github.com/bagheri365/ML-Models-from-Scratch/blob/master/Graph-Neural-Networks/GCN/img/node_embeddings_random_weights.png" width="640">
+    <img src= "https://github.com/bagheri365/ML-Models-from-Scratch/blob/master/Graph-Neural-Networks/GCN/img/node_embeddings_gcn.gif" width="640">
 </p>
 <p align="left">
     Figure: Node embeddings react during training on a semi-supervised classification task.
