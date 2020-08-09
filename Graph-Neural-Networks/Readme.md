@@ -1,1 +1,1 @@
-In this section, I implement Graph Neural Networks from scratch.
+In this repo, I share my implementations of Graph Neural Networks from scratch.
